@@ -1,0 +1,10 @@
+task 6
+
+function Person(FirstName, LastName, Age) { this.firstName = FirstName || "unknown";
+ this.lastName = LastName || "unknown";
+ this.age = Age || 25;
+  this.getFullName = function () { return this.firstName + " " + this.lastName; } }; 
+  var person1 = new Person("nani","joshuva",23);
+ alert(person1.getFullName()); 
+ var person2 = new Person("emmanual","inturi");
+  alert(person2.getFullName());
